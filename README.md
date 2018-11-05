@@ -12,8 +12,12 @@ How to install Hackerz IP Backup:\
 1.open your termux\
 2.make sure you has been installed Python and github in termux.\
 if not, follow this:\
-$ pkg install python\
-$ pkg install git\
+```
+$ pkg install python
+```
+```
+$ pkg install git
+```
 3.And the last, make sure you has been downloaded HackerzIPBackup via termux.\
 if not, follow this:\
 $ git clone https://github.com/SoULz13BLACK/HackerzIPBackup\

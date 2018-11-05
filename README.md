@@ -2,8 +2,8 @@
 for backup ip(s) in Hackers's game
 
 # Tutorial
-What you need:\n
-1.rooted smartphone\n
+What you need:
+1.rooted smartphone
 2.Hackerz's game has been installed
 3.Termux app has been installed
 4.Internet connection(for install few needed programs)
@@ -40,10 +40,10 @@ $ cd export_ip
 12.then, open your iplist.txt!
 $ cat iplist.txt
 
-#This Program still under Development
+# This Program still under Development
 This program still under development. so, new features and bug fix(s) will be coming!!
 we need your support and critism to help this program will be better next time.
 
 Next features maybe recover removed ip(s) in your Hackerz's game.. (We hope we can do it :D)
 
-#Thank Your For Using This Program :D
+# Thank Your For Using This Program :D

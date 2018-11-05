@@ -2,8 +2,8 @@
 for backup ip(s) in Hackers's game
 
 # Tutorial
-What you need:
-1.rooted smartphone
+What you need:\n
+1.rooted smartphone\n
 2.Hackerz's game has been installed
 3.Termux app has been installed
 4.Internet connection(for install few needed programs)

@@ -8,7 +8,7 @@ value = ''
 db = sqlite3.connect("db/iplist.db")
 ipl = db.cursor()
 
-try:
+def main_process():
 	tree = ET.parse('xml_data/net.okitoo.hackers_preferences.xml')
 	root = tree.getroot()
 	data_ip = ipl.execute("SELECT * FROM IPLIST;")
@@ -55,6 +55,9 @@ try:
 
 	print("Success Backup!")
 
+try:
+	main_process()
+
 except Exception as e:
 	msg = "Please root your device!\n"
 	problem = "Problem: "+str(e)
@@ -62,9 +65,10 @@ except Exception as e:
 	if str(e) == "no such table: IPLIST":
 		ipl.execute("CREATE TABLE 'IPLIST' ('ID' INTEGER, 'USERNAME' TEXT, 'IP_ADDRESS' TEXT, PRIMARY KEY('ID'));")
 		db.commit()
-		print("please backup again!")
+		main_process
 
-	print(msg+problem)
+	elif str(e) != "no such table: IPLIST":
+		print(msg+problem)
 
 finally:
 	db.close()

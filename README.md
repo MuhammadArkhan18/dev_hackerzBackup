@@ -37,10 +37,12 @@ $ su
 ```
 $ cd /data/data/com.termux/files/home/HackerzIPBackup/
 ```
+
 3. run main.sh:
 ```
 $ sh main.sh
 ```
+
 4. in program, choose number 1 for taking ip list in Hackerz\
 
 5.if success, choose number 0 for go out from program.\
@@ -53,11 +55,11 @@ $ exit
 ```
 $ sh main.sh
 ```
-8.Choose number 2 for Backup IP(s)\
+8.Choose number 2 for Backup IP(s)
 
-9.wait, if show message: try backup again and show error: no such table: IPLIST,choose number 2 again in main menu (i will fix this bug soon)\
+9.wait, if show message: try backup again and show error: no such table: IPLIST,choose number 2 again in main menu (i will fix this bug soon)
 
-10.then, if success, choose number 3 to export IP(s).\
+10.then, if success, choose number 3 to export IP(s).
 
 11.If success to export, choose number 0 for go out from program and open folder export_ip:
 ```

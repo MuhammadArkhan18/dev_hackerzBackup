@@ -76,4 +76,6 @@ we need your support and critism to help this program will be better next time.\
 \
 Next features maybe recover removed ip(s) in your Hackerz's game.. (We hope we can do it :D)
 
+Telegram : @VrozAnims2003
+
 # Thank Your For Using This Program :D

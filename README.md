@@ -38,7 +38,7 @@ choose number 2 again in main menu (i will fix this bug soon)\
 11.If success to export, choose number 0 for go out from program and open folder export_ip:\
 $ cd export_ip\
 12.then, open your iplist.txt!\
-$ cat iplist.txt\
+$ cat iplist.txt
 
 # This Program still under Development
 This program still under development. so, new features and bug fix(s) will be coming!!\

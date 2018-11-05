@@ -23,6 +23,11 @@ if not, follow this:
 ```
 $ git clone https://github.com/SoULz13BLACK/HackerzIPBackup
 ```
+4.create folder 'export_ip', 'db', and 'xml_data':
+```
+$ mkdir export_ip db xml_data
+```
+\
 How to run it:\
 1.go to superuser mode in termux:
 ```

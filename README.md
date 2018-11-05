@@ -35,15 +35,15 @@ $ sh main.sh\
 9.wait, if show message: try backup again and show error: no such table: IPLIST,\
 choose number 2 again in main menu (i will fix this bug soon)\
 10.then, if success, choose number 3 to export IP(s).\
-11.If success to export, choose number 0 for go out from program and open folder export_ip:
-$ cd export_ip
-12.then, open your iplist.txt!
-$ cat iplist.txt
+11.If success to export, choose number 0 for go out from program and open folder export_ip:\
+$ cd export_ip\
+12.then, open your iplist.txt!\
+$ cat iplist.txt\
 
 # This Program still under Development
-This program still under development. so, new features and bug fix(s) will be coming!!
-we need your support and critism to help this program will be better next time.
-
+This program still under development. so, new features and bug fix(s) will be coming!!\
+we need your support and critism to help this program will be better next time.\
+\
 Next features maybe recover removed ip(s) in your Hackerz's game.. (We hope we can do it :D)
 
 # Thank Your For Using This Program :D

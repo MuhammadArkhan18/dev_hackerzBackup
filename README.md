@@ -43,9 +43,9 @@ $ cd /data/data/com.termux/files/home/HackerzIPBackup/
 $ sh main.sh
 ```
 
-4. in program, choose number 1 for taking ip list in Hackerz\
+4. in program, choose number 1 for taking ip list in Hackerz
 
-5.if success, choose number 0 for go out from program.\
+5.if success, choose number 0 for go out from program.
 
 6.exit from superuser mode:
 ```

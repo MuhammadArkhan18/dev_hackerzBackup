@@ -1,0 +1,6 @@
+HACKERZ BACKUP IP CHANGELOG:
+
+-HackerzIPBackup v1.0(build 1):
+1.Added Backup and Export IP to be IPLIST!
+2.Colorfull GUI
+

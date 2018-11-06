@@ -2,18 +2,18 @@ import os, sqlite3
 from os import listdir
 import xml.etree.ElementTree as ET
 
-try:
-	file = open("export_ip/iplist.txt", 'a')
-	qfi  = open("export_ip/iplist.txt", 'r')
-	msg = ''
-	q = 1
-	user = []
-	ip_a = []
-	data_file = {}
-	data_db   = {}
-	db = sqlite3.connect("db/iplist.db")
-	ipl= db.cursor()
+file = open('export_ip/iplist.txt', 'a')
+qfi  = open('export_ip/iplist.txt', 'r')
+msg = ''
+q = 1
+user = []
+ip_a = []
+data_file = {}
+data_db   = {}
+db = sqlite3.connect("db/iplist.db")
+ipl= db.cursor()
 
+try:
 	data_l = db.execute("SELECT * FROM IPLIST;")
 
 	for i in qfi:
@@ -44,6 +44,7 @@ try:
 		data_file.update({usern: ipadd})
 
 	for i in data_l:
+		print(i)
 		username = str(i[1])
 		ip_address= str(i[2])
 		l = False
@@ -60,7 +61,7 @@ try:
 	if msg != '':
 		file.write(msg)
 
-	print("Exported to /export_ip/iplist.txt!")
+	print("Exported to Internal Memory: iplist.txt!")
 
 except Exception as e:
 	print("Problem: "+str(e))
